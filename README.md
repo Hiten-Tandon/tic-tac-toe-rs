@@ -10,4 +10,5 @@ Then goto the repo
 
 Then run it with cargo
 - `cargo run --release`
+
 And there you go
