@@ -21,3 +21,13 @@ impl Default for Tile {
         Self::Empty
     }
 }
+
+impl Tile {
+    pub fn switch(self) -> Self {
+        match self {
+            Tile::Empty => Tile::Empty,
+            Tile::X => Tile::O,
+            Tile::O => Tile::X,
+        }
+    }
+}
