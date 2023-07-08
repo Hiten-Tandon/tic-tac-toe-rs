@@ -1,3 +1,8 @@
+pub mod board;
+pub mod tiles;
+
+use board::*;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{:?}", Board::default());
 }
